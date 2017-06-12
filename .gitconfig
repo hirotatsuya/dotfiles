@@ -1,0 +1,26 @@
+[core]
+	excludesfile = /Users/tatsuya/.gitignore_global
+	editor = vi
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[http]
+	sslVerify = false
+[color]
+	ui = auto
+[user]
+	name = Tatsuya Hirota
+	email = h1208tatsuya@gmail.com
+[alias]
+	s = status
+    st = status
+    b = branch -av
+    a = add
+	c = commit -m
+	co = checkout
+    cb = checkout -b
+[merge]
+	ff = false
