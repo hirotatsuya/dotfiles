@@ -58,3 +58,6 @@ set PATH $HOME/Library/Android/sdk/platform-tools $PATH
 
 # anyenv
 # set -x PATH $HOME/.anyenv/bin $PATH
+
+# yarn
+set PATH $HOME/.yarn/bin $PATH
