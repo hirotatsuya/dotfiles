@@ -33,6 +33,7 @@ alias fr 'vi $HOME/.config/fish/config.fish'
 alias vr 'vi $HOME/.vimrc'
 alias gr 'vi $HOME/.gitconfig'
 alias g 'git'
+alias p 'python'
 
 # dotfile copy alias
 alias cpdots 'cp $HOME/.bash_profile $HOME/devapp/dotfiles; and cp $HOME/.bashrc $HOME/devapp/dotfiles; and cp $HOME/.zshrc $HOME/devapp/dotfiles; and cp $HOME/.config/fish/config.fish $HOME/devapp/dotfiles; and cp $HOME/.vimrc $HOME/devapp/dotfiles; and cp $HOME/.gitconfig $HOME/devapp/dotfiles'
@@ -60,4 +61,7 @@ set PATH $HOME/Library/Android/sdk/platform-tools $PATH
 # set -x PATH $HOME/.anyenv/bin $PATH
 
 # yarn
-set PATH $HOME/.yarn/bin $PATH
+# set PATH /usr/local/bin/yarn $PATH
+
+# rbenv
+set PATH $HOME/.anyenv/envs/rbenv/bin $PATH

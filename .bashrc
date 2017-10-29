@@ -14,6 +14,7 @@ alias fr='vi $HOME/.config/fish/config.fish'
 alias vr='vi $HOME/.vimrc'
 alias gr='vi $HOME/.gitconfig'
 alias g='git'
+alias p='python'
 
 # dotfile copy alias
 alias cpdots='cp $HOME/.bash_profile $HOME/devapp/dotfiles && cp $HOME/.bashrc $HOME/devapp/dotfiles && cp $HOME/.zshrc $HOME/devapp/dotfiles && cp $HOME/.config/fish/config.fish $HOME/devapp/dotfiles && cp $HOME/.vimrc $HOME/devapp/dotfiles && cp $HOME/.gitconfig $HOME/devapp/dotfiles'
