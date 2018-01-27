@@ -33,7 +33,7 @@ alias fr 'vi $HOME/.config/fish/config.fish'
 alias vr 'vi $HOME/.vimrc'
 alias gr 'vi $HOME/.gitconfig'
 alias g 'git'
-alias p 'python'
+alias p 'pipenv run python'
 
 # dotfile copy alias
 alias cpdots 'cp $HOME/.bash_profile $HOME/devapp/dotfiles; and cp $HOME/.bashrc $HOME/devapp/dotfiles; and cp $HOME/.zshrc $HOME/devapp/dotfiles; and cp $HOME/.config/fish/config.fish $HOME/devapp/dotfiles; and cp $HOME/.vimrc $HOME/devapp/dotfiles; and cp $HOME/.gitconfig $HOME/devapp/dotfiles'
