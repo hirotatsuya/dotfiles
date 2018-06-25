@@ -1,26 +1,24 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+#	name = tatsuya_hirota
+#	email = tatsuya_hirota@admin-kronos-no-MacBook-Air.local
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	cm = commit
+	df = diff
+[user]
+	name = hirotatsu
+	email = tatsuya_hirota@kronos.jp
 [core]
-	excludesfile = /Users/tatsuya/.gitignore_global
-	editor = vi
+	excludesfile = /Users/tatsuya_hirota/.gitignore_global
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
 [mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
-[http]
-	sslVerify = false
-[color]
-	ui = auto
-[user]
-	name = Tatsuya Hirota
-	email = h1208tatsuya@gmail.com
-[alias]
-	s = status
-    st = status
-    b = branch -av
-    a = add
-	c = commit -m
-	co = checkout
-    cb = checkout -b
-[merge]
-	ff = false
+[commit]
+	template = /Users/tatsuya_hirota/.stCommitMsg
